@@ -1,9 +1,9 @@
 ---
-siteName: YourSiteName
+siteName: Game Navigator
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
   <meta charset="UTF-8">
   <title>{{siteName}} | {{ title }}</title>
 
@@ -20,26 +20,34 @@ siteName: YourSiteName
   <meta property="og:image" content="">
 
   <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/card.css">
+ </head>
+ <body>
   <header class="site-header">
         <!-- add site wide header content here -->
-        {% include "nav-collection.njk" %}
+        {% include "nav-basic.njk" %}
   </header>
+  <main class="{{ pageClass }}">{{ content | safe }}</main>
 
-  <main class="{{ pageClass }}">
-    {{ content | safe }}
-  </main>
-  
-  <footer class="site-footer">
-    <div>
-      <p>&copy; Add Footer Info here</p>
-      <!-- You can change all of this footer content. -->
-    </div>
-  </footer>
-
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/js/main.js"></script>
-</body>
+  <section class="footer">
+          <figcaption class="caption">
+            <p>© 2023 by Game Recommendation</p>
+             <a href="https://www.iconfinder.com/search?q=xbox">Xbox icon</a>
+             <a href="https://www.iconfinder.com/search?q=PC+Game">PC icon</a>
+             <a href="https://www.iconfinder.com/search?q=switch+nintendo">Switch icon</a>
+             <a href="https://www.iconfinder.com/search?q=playstation">Playstation icon</a>
+             <a href="https://commons.wikimedia.org/wiki/File:Xbox_One_gamepads,_gaming_keyboard_and_mouse.jpg">Banner</a>
+             <a href="https://www.wallpaperflare.com/search?wallpaper=gaming+mouse">Pc image</a>
+             <a href="https://pixabay.com/photos/controller-gaming-playstation-6092067/">Ps image</a>
+             <a href="https://www.ctrl.blog/entry/download-episodic-xbox.html">Xbox image</a>
+             <a href="https://www.wallpaperflare.com/close-up-photography-of-nintendo-switch-neon-green-controller-nintendo-switch-gamepad-on-black-top-wallpaper-zturp">switch image</a>
+          </figcaption>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!--    Load Local version if CDN is not working-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.6.3.min.js"><\/script>')</script>
+    <!-- Site JavaScript file -->
+  <script src="/js/icon.js"></script>
+ </body>
 </html>
