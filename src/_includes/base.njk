@@ -3,7 +3,7 @@ siteName: Game Navigator
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
   <meta charset="UTF-8">
   <title>{{siteName}} | {{ title }}</title>
 
@@ -22,17 +22,14 @@ siteName: Game Navigator
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/card.css">
-</head>
-<body>
+ </head>
+ <body>
   <header class="site-header">
         <!-- add site wide header content here -->
         {% include "nav-basic.njk" %}
   </header>
+  <main class="{{ pageClass }}">{{ content | safe }}</main>
 
-  <main class="{{ pageClass }}">
-    {{ content | safe }}
-  </main>
-  
   <section class="footer">
           <figcaption class="caption">
             <p>© 2023 by Game Recommendation</p>
@@ -46,14 +43,11 @@ siteName: Game Navigator
              <a href="https://www.ctrl.blog/entry/download-episodic-xbox.html">Xbox image</a>
              <a href="https://www.wallpaperflare.com/close-up-photography-of-nintendo-switch-neon-green-controller-nintendo-switch-gamepad-on-black-top-wallpaper-zturp">switch image</a>
           </figcaption>
-      </section>
-
-
-
+  </section>
   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <!--    Load Local version if CDN is not working-->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.6.3.min.js"><\/script>')</script>
     <!-- Site JavaScript file -->
-    <script src="/js/icon.js"></script>
-</body>
+  <script src="/js/icon.js"></script>
+ </body>
 </html>

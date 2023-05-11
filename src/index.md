@@ -4,25 +4,14 @@ layout: base.njk
 tags: navItem
 pageClass: home
 ---
-
-
-    <nav class="site-main">
-
+  <nav class="site-main">
         <div class="intro-image">
             <img src="/images/000.png"  class="me" alt="" >
         </div>
-
-        <div class="intro">
-
+        <div class="intro">THE BEST GAMES WILL BE REVEALED HERE
         </div>
-
-
-
-    </nav>
-
-
-
-    <section class="grid">
+  </nav>
+  <section class="grid">
           <article class="card">
             <div class="card__img"><img src="/images/001.png" alt=""></div>
             <div class="card__content">
@@ -56,7 +45,3 @@ pageClass: home
             </div>
           </article>
        </section>
-
-
-</body>
-</html>
