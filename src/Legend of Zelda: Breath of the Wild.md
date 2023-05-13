@@ -20,7 +20,7 @@ pageClass: home
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/7.png" alt=""></div>
+            <div class="card__img-m"><img src="/images/switch2.png" alt=""></div>
           </article>
 
 

@@ -21,7 +21,7 @@ pageClass: home
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/7.png" alt=""></div>
+            <div class="card__img-m"><img src="/images/pc2.png" alt=""></div>
           </article>
      </section>
 
