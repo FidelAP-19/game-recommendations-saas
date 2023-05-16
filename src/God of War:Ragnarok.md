@@ -13,10 +13,10 @@ pageClass: home
         <article class="card-m">
             <div class="card__content-m">
                 <h2 class="card__text-m">God of War:Ragnarok</h2>
-              <p class="card__text-m">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="card__text-m">2018 release. The game had high expectations and surpassed them due to its great visuals, and story. The gameplay is immersive, and the characters are well written and memorable. The entire game is an incredible adventure filled with memorable events such as amazing boss fights, beautiful soundtracks and a brilliant storyline.</p>
               <ul>
-                <li>DATE:</li>
-                <li>DEVELOPER:</li>
+                <li>DATE:November 9 2022</li>
+                <li>DEVELOPER:Santa Monica Studios</li>
               </ul>
             </div>
           </article>
