@@ -3,7 +3,7 @@ title: Legend of Zelda Breath of the Wild
 layout: base.njk
 pageClass: Nintendo Switch Games
 tags:
-- games
+  - games
 ---
 
 <h1>Nintendo Switch Games</h1>

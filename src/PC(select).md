@@ -40,7 +40,7 @@ pageClass: home
             <div class="card__img"><img src="/images/6.png" alt=""></div>
             <div class="card__content">
               <h1 class="card__header">Half-life: Alyx</h1>
-              <a href="/Half-life" class="card__btn"><strong>View</strong></a>
+              <a href="/Half-life: Alyx" class="card__btn"><strong>View</strong></a>
             </div>
           </article>
        </section>
