@@ -31,15 +31,15 @@ pageClass: home
           <article class="card">
             <div class="card__img"><img src="/images/switch1.png" alt=""></div>
             <div class="card__content">
-              <h1 class="card__header">Super Smash Bros Ultimate</h1>
-              <a href="/Super Smash Bros Ultimate" class="card__btn"><strong>View</strong></a>
+              <h1 class="card__header">Super Smash Bros. Ultimate</h1>
+              <a href="/Super Smash Bros. Ultimate" class="card__btn"><strong>View</strong></a>
             </div>
           </article>
           <article class="card">
             <div class="card__img"><img src="/images/switch3.png" alt=""></div>
             <div class="card__content">
-              <h1 class="card__header">Animal Crossing</h1>
-              <a href="/Animal Crossing" class="card__btn"><strong>View</strong></a>
+              <h1 class="card__header">Animal Crossing: New Horizons</h1>
+              <a href="/Animal Crossing: New Horizons" class="card__btn"><strong>View</strong></a>
             </div>
           </article>
        </section>
