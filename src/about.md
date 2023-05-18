@@ -8,7 +8,7 @@ pageClass: home
     <section class="grid-1">
 
          <div class="card__img-1">
-          <img src="/images/7.png" alt="">
+          <img src="/images/about.png" alt="">
          </div>
           <article class="card-2">
             <div class="card__content">

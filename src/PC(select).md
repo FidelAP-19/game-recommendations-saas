@@ -23,24 +23,24 @@ pageClass: home
 
     <section class="grid-select">
           <article class="card">
-            <div class="card__img"><img src="/images/6.png" alt=""></div>
+            <div class="card__img"><img src="/images/pc2.png" alt=""></div>
             <div class="card__content">
               <h1 class="card__header">World of Warcraft</h1>
               <a href="/World of Warcraft" class="card__btn"><strong>View</strong></a>
             </div>
           </article>
           <article class="card">
-            <div class="card__img"><img src="/images/6.png" alt=""></div>
+            <div class="card__img"><img src="/images/pc3.png" alt=""></div>
             <div class="card__content">
               <h1 class="card__header">Everquest</h1>
               <a href="/Everquest" class="card__btn"><strong>View</strong></a>
             </div>
           </article>
           <article class="card">
-            <div class="card__img"><img src="/images/6.png" alt=""></div>
+            <div class="card__img"><img src="/images/pc1.png" alt=""></div>
             <div class="card__content">
               <h1 class="card__header">Half-life: Alyx</h1>
-              <a href="/Half-life" class="card__btn"><strong>View</strong></a>
+              <a href="/Half-life: Alyx" class="card__btn"><strong>View</strong></a>
             </div>
           </article>
        </section>
