@@ -5,8 +5,10 @@ pageClass: PC Games
 tags:
   - games
 ---
-
-<h1>PC Games</h1>
+<div class="games-header">
+  <h1>PC Games</h1>
+</div>
+</div>
   <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -25,11 +27,11 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/game-main-5.png" alt=""></div>
+            <div class="card__img-m"><img src="/images/pc3.png" alt="Everquest"></div>
           </article>
      </section>
-     <h1>Reviews</h1>
     <div class="game_reviews">
+    <h3>Reviews</h3>
       <p>
         <strong><i>"From the thick woodlands of Kelethin to the lunar landscapes of Luclin, Everquest's locales are lavish and vast; and continue to grow. It's tough to beat the satisfaction and fun this game grants in spades, with its range of cool monsters, sweet loot, and fruitful quests that invite players to team up. The best part? It's become a free-to-play game, making it all the more worth diving into this awesome journey."<a href="https://gamerant.com/pc-games-cant-play-console/?newsletter_popup=1#star-wars-the-old-republic" target="_blank" rel="noopener noreferrer"> -Game Rant</a></i></strong>
       </p>

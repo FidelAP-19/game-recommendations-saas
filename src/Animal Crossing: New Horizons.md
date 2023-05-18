@@ -6,7 +6,9 @@ tags:
   - games
 ---
 
-<h1>Nintendo Switch Games</h1>
+<div class="games-header">
+  <h1>Nintendo Switch Games</h1>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -26,11 +28,11 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/game-main-4.png" alt="Animal Crossing: New Horizon"></div>
+            <div class="card__img-m"><img src="/images/switch3.png" alt="Animal Crossing: New Horizon"></div>
           </article>
      </section>
-     <h1>Reviews</h1>
     <div class="game_reviews">
+    <h3>Reviews</h3>
       <p>
         <strong><i>"Released on the doorstep of a global pandemic, Animal Crossing: New Horizons provided a much need escape to many, selling nearly 34 million copies to date. Routine and discovery play equally important roles as you plan the perfect layout for your island, make friends (or enemies) with all your villagers, and invite your friends to your own little utopia to trade items and swap secrets. It’s brilliant in its simplicity and masterful in the way it encourages players to keep up with chores, redecorate and/or reshape entire plots of land, or burn dozens of hours trying to catch rare fish or find every last seasonal item. It certainly helps that all the writing is supremely funny and that, hundreds of hours in, you’re still able to chuckle at a random comment or find genuine inspiration in the places you’d least expect."<a href="https://www.ign.com/articles/best-nintendo-switch-games-2" target="_blank" rel="noopener noreferrer"> -IGN</a></i></strong>
       </p>

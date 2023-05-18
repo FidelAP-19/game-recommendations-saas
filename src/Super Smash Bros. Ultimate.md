@@ -6,7 +6,10 @@ tags:
   - games
 ---
 
-<h1>Nintendo Switch Games</h1>
+<div class="games-header">
+  <h1>Nintendo Switch Games</h1>
+</div>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -26,11 +29,11 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/game-main-3.png" alt="Super Smash Bros. Ultimate"></div>
+            <div class="card__img-m"><img src="/images/switch1.png" alt="Super Smash Bros. Ultimate"></div>
           </article>
      </section>
-     <h1>Reviews</h1>
     <div class="game_reviews">
+      <h3>Reviews</h3>
       <p>
         <strong><i>"SuperSuper Smash Bros. Ultimate’s title alone promises the biggest, best and most complete Smash Bros. to date. Yet the word “ultimate” can also be read not as an enthusiastic superlative, but merely as a coda to the franchise, a blunt culmination of its design. This is the ultimate Smash Bros. because its scope is so massive that it’s hard to imagine adding anything else."<a href="https://www.polygon.com/reviews/2018/12/6/18128504/super-smash-bros-ultimate-review-nintendo-switch" target="_blank" rel="noopener noreferrer"> -Polygon</a></i></strong>
       </p>
