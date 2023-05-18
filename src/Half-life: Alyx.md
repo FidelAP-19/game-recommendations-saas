@@ -6,7 +6,9 @@ tags:
   - games
 ---
 
-<h1>PC Games</h1>
+<div class="games-header">
+  <h1>PC Games</h1>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -26,11 +28,11 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/Half-Life_Alyx_cover.png" alt=""></div>
+            <div class="card__img-m"><img src="/images/pc1.png" alt=""></div>
           </article>
      </section>
-     <h1>Reviews</h1>
     <div class="game_reviews">
+      <h3>Reviews</h3>
       <p>
         <strong><i>"Probably the biggest change introduced in Episode One is how Alyx fights at Gordon's side for the majority of the game. Plenty of shooters have tried this and failed, with NPCs who get lost or get in the way or are just plain annoying. Valve strikes just the right notes with Alyx; she doesn't nag Gordon, she can competently follow you around, and even provides useful support a lot of the time. There's a fun sequence in the later chapters where you're free to run ahead and fight alone, but it's far more fun to draw enemies into Alyx's line of sight so she can snipe them from afar. Aside from her use in combat, Alyx is also effectively used to put a human face on things and keep the story moving along, and Episode One is a better game for it."<a href="http://pc.gamespy.com/pc/half-life-2-aftermath/710990p2.html" target="_blank" rel="noopener noreferrer"> -Game Spy</a></i></strong>
       </p>

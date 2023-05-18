@@ -6,7 +6,9 @@ tags:
   - games
 ---
 
-<h1>PC Games</h1>
+<div class="games-header">
+  <h1>PC Games</h1>
+</div>
   <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -27,12 +29,12 @@ tags:
           </article>
           <article class="card-m">
             <div class="card__img-m">
-              <img src="/images/World_of_Warcraft_cover.png" alt="World of Warcraft">
+              <img src="/images/pc2.png" alt="World of Warcraft">
             </div>
           </article>
   </section>
-    <h1>Reviews</h1>
     <div class="game_reviews">
+    <h3>Reviews</h3>
       <p>
         <strong><i>"Nearly two decades after its initial release, World of Warcraft is still one of the biggest names in online gaming. Most MMO players cut their teeth on this massive title and it has remained hugely influential throughout multiple expansions and re-releases over the years. WoW might not be the only name in MMOs anymore, but it is still one of the best PC-exclusive games you’ll find."<a href="https://www.gamepur.com/guides/the-ten-best-pc-exclusive-games-of-all-time" target="_blank" rel="noopener noreferrer"> -Gamepur</a></i></strong>
       </p>

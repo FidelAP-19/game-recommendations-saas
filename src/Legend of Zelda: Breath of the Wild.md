@@ -6,7 +6,9 @@ tags:
   - games
 ---
 
-<h1>Nintendo Switch Games</h1>
+<div class="games-header">
+  <h1>Nintendo Switch Games</h1>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -26,11 +28,11 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/The_Legend_of_Zelda_Breath_of_the_Wild_cover.png" alt="Legend of Zelda: Breath of the Wild"></div>
+            <div class="card__img-m"><img src="/images/switch2.png" alt="Legend of Zelda: Breath of the Wild"></div>
           </article>
      </section>
-     <h1>Reviews</h1>
     <div class="game_reviews">
+    <h3>Reviews</h3>
       <p>
         <strong><i>"The Legend of Zelda: Breath of the Wild was a landmark release, both for its franchise and Nintendo. It was the first time that Nintendo truly took on the open-world genre, and by arriving late to the party it embraced the strengths from top-of-the-class games while also forging its own unique identity. This game was a revolution for the series, but the Legend of Zelda essence is still there — its soul remains, and the end result is captivating. After years of following the same old template, Nintendo bravely took Zelda in a new direction, and delivered an absolute triumph which still has us regularly revisiting its iteration of Hyrule. Breath of the Wild forged a new and exciting path ahead and we cannot wait to see where it takes the series."<a href="https://www.nintendolife.com/guides/50-best-nintendo-switch-games-so-far?page=5" target="_blank" rel="noopener noreferrer"> -Nintendo Life</a></i></strong>
       </p>
