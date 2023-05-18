@@ -22,7 +22,6 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
-    font-family: 'Dosis', sans-serif;
   }
 
   body{
@@ -66,13 +65,23 @@ html {
       height: 100%;
   }
 
+  p{
+    font-family: 'Lobster', cursive;
+  }
 
-  .footer p{
+  h2{
+    font-family: 'Oleo Script', cursive;
+  }
+
+
+  .footer p {
     text-align: center;
     margin-top: 5%;
    }
+
 .caption{
   text-align: center;
+  font-family:'Oleo Script', cursive;
 }
 .intro{
   text-align: center;
@@ -130,6 +139,10 @@ ul{
 .card__img{
   cursor: pointer;
   text-align: center;
+}
+
+.card__content-m ul{
+  font-family: 'Oleo Script', cursive;
 }
 
 
