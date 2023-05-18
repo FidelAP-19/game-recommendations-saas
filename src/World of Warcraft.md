@@ -26,13 +26,7 @@ tags:
             </div>
           </article>
           <article class="card-m">
-<<<<<<< HEAD
-            <div class="card__img-m">
-              <img src="/images/World_of_Warcraft_cover.png" alt="World of Warcraft">
-            </div>
-=======
             <div class="card__img-m"><img src="/images/game-main-6.png" alt=""></div>
->>>>>>> yong
           </article>
   </section>
     <h1>Reviews</h1>

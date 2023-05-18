@@ -26,7 +26,7 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/Half-Life_Alyx_cover.png" alt=""></div>
+            <div class="card__img-m"><img src="/images/game-mian-1.png" alt=""></div>
           </article>
      </section>
      <h1>Reviews</h1>
