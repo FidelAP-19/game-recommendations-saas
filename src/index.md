@@ -8,7 +8,7 @@ pageClass: home
         <div class="intro-image">
             <img src="/images/000.png"  class="me" alt="" >
         </div>
-        <div class="intro">THE BEST GAMES WILL BE REVEALED HERE
+        <div class="intro-main">The best games will be revealed here
         </div>
   </nav>
   <section class="grid">
