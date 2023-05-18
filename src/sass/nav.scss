@@ -9,7 +9,7 @@
   row-gap: 1rem; /* adds space between logo and nav items if the items wrap under the logo */
   justify-content: space-between;
   padding: 1.5rem 2rem;
-  background-color: black;
+  background-color: #FEFAE0;
   transition: top 500ms ease-in-out;
 }
 
@@ -19,7 +19,8 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: white;
+  color: #333;
+  font-family:Oleo Script;
 }
 
 /* CSS Hamburger Icon
@@ -35,7 +36,7 @@ thanks to Elijah Manor */
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: white; /*color of hamburger icon */
+  background: #333; /*color of hamburger icon */
   position: absolute;
   display: block;
   content: '';
@@ -74,6 +75,7 @@ thanks to Elijah Manor */
   display: block;
   line-height: 1rem;
   margin: 2rem 0;
+  font-family:Oleo Script;
 }
 
 .links {
@@ -82,8 +84,8 @@ thanks to Elijah Manor */
 }
 
 .site-nav a {
-  color: white;
-  text-decoration: none;
+  color:#333;
+  text-decoration:none;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;

@@ -12,10 +12,10 @@ pageClass: home
         <article class="card-m">
             <div class="card__content-m">
                 <h2 class="card__text-m">Forza Horizon 5</h2>
-              <p class="card__text-m">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="card__text-m">Forza Horizon 5 is currently the best racing game out at this moment. The game takes place a fictional Mexico and boasts of a large open map filled with challenges. The games’ ability to customize your car and share car tuning with other player just add to its stunning graphics. The incredible map design which includes volcanos and swamps alongside the variety in cars to pick from is what make it the best racing game out. With the constant update of content being added to the game I don’t see it slowing down in popularity anytime soon.</p>
               <ul>
-                <li>DATE:</li>
-                <li>DEVELOPER:</li>
+                <li>DATE:November 1 ,2021</li>
+                <li>DEVELOPER:Playground Games</li>
               </ul>
             </div>
           </article>
