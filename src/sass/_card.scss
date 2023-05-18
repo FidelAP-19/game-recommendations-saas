@@ -1,30 +1,7 @@
-/* Basic Typography
-================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
-
-/* The html and body selectors below set the base type for the entire page */
-html {
-    font-size: 1em;
-}
-
-body {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-}
-/* This adds space between paragraphs and list items*/
-/* NOTE: most Navigations use list items so you will need to explicity set the margins on those so this rule doesn't mess up your navigation styling */
-
-
-  /* Base Styling for headings  */
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    font-family: 'Dosis', sans-serif;
-
-  }
-
+/* Base Styling for headings  */
   h1{
     font-size: 1.5em;
+    font-family: 'Lobster', cursive;;
   }
 
 
@@ -98,16 +75,11 @@ html {
 
 
 
-p {
-  color: #4d4d4d;
-/*   margin-left: 6px; */
-}
-
 /* ===================================================
    CARDS
   ================================================== */
 .card{
-  background-color: white;
+  background-color:#5085C3;
   border-radius: 0.4rem;
 /*   border: 1px solid grey; */
 /*   padding: 20px; */
@@ -118,7 +90,7 @@ p {
 }
 
 h1, h2{
-  color:black;
+  color:#333;
   text-align: center;
 /*   margin-left: 6px; */
 }
@@ -131,30 +103,31 @@ h1, h2{
 
 
 
-.card__btn {
+.card__btn{
   display: block;
   width: 200px;
   margin: 0 auto;
   padding: 1rem;
   font-size: 1.5rem;
   text-align: center;
-  color: white;
-  background-color: black;
-  border-radius: 3rem;
+  color: #C3ACD0;
+  background-color:#00235B;
+  border-radius: 0.6em;
   border: 0px;
-/*   margin-left: 6px; */
 }
+.card__btn strong{
+  font-family: 'Oleo Script', cursive;
+}
+
+/*   margin-left: 6px; */
+
 
 a:hover {
-  color:yellow;
+  color:#FF0303;
 }
-
-.card__btn:hover{
-  background-color: yellow;
-}
-
 
 
 .card__content{
   padding: 20px 40px 20px 40px;
+  font-family: 'Oleo Script', cursive;
 }
