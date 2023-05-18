@@ -1,12 +1,7 @@
 /* Base Styling for headings  */
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    font-family: 'Dosis', sans-serif;
-
-  }
-
   h1{
     font-size: 1.5em;
+    font-family: 'Lobster', cursive;;
   }
 
 
@@ -89,7 +84,7 @@ p {
    CARDS
   ================================================== */
 .card{
-  background-color: white;
+  background-color:#5085C3;
   border-radius: 0.4rem;
 /*   border: 1px solid grey; */
 /*   padding: 20px; */
@@ -113,30 +108,31 @@ h1, h2{
 
 
 
-.card__btn {
+.card__btn{
   display: block;
   width: 200px;
   margin: 0 auto;
   padding: 1rem;
   font-size: 1.5rem;
   text-align: center;
-  color: white;
-  background-color: black;
-  border-radius: 3rem;
+  color: #C3ACD0;
+  background-color:#00235B;
+  border-radius: 0.6em;
   border: 0px;
-/*   margin-left: 6px; */
 }
+.card__btn strong{
+  font-family: 'Oleo Script', cursive;
+}
+
+/*   margin-left: 6px; */
+
 
 a:hover {
-  color:yellow;
+  color:#FF0303;
 }
-
-.card__btn:hover{
-  background-color: yellow;
-}
-
 
 
 .card__content{
   padding: 20px 40px 20px 40px;
+  font-family: 'Oleo Script', cursive;
 }
