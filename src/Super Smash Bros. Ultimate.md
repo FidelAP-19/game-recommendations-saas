@@ -26,7 +26,7 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/game-mian-3.png" alt="Super Smash Bros. Ultimate"></div>
+            <div class="card__img-m"><img src="/images/game-main-3.png" alt="Super Smash Bros. Ultimate"></div>
           </article>
      </section>
      <h1>Reviews</h1>
