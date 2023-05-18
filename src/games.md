@@ -5,9 +5,9 @@ tags: navItem
 pageClass: Games
 ---
 <nav class="site-main">
-        <div class="intro-image">
+        <!-- <div class="intro-image">
             <img src="/images/000.png"  class="me" alt="" >
-        </div>
+        </div> -->
         <div class="intro">THE BEST GAMES WILL BE REVEALED HERE
         </div>
   </nav>
