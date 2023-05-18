@@ -25,7 +25,7 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/EverQuest_Coverart_cover.png" alt="Everquest"></div>
+            <div class="card__img-m"><img src="/images/pc3.png" alt=""></div>
           </article>
      </section>
      <h1>Reviews</h1>

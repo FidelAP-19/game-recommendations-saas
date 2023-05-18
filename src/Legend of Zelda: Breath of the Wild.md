@@ -26,7 +26,11 @@ tags:
             </div>
           </article>
           <article class="card-m">
+<<<<<<< HEAD
             <div class="card__img-m"><img src="/images/The_Legend_of_Zelda_Breath_of_the_Wild_cover.png" alt="Legend of Zelda: Breath of the Wild"></div>
+=======
+            <div class="card__img-m"><img src="/images/game-main-2.png" alt=""></div>
+>>>>>>> yong
           </article>
      </section>
      <h1>Reviews</h1>
