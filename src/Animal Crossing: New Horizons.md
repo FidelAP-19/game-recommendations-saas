@@ -4,6 +4,7 @@ layout: base.njk
 pageClass: Nintendo Switch Games
 tags:
   - games
+  - switch
 ---
 
 <div class="games-header">
@@ -51,3 +52,11 @@ tags:
         <strong><i>"It’s clear, of course, that Nintendo wants this new update to keep players interested in New Horizons for as long as possible; the days-long time gating is a clear indicator of that. Players who want new content to keep them busy for more hours on end will likely be frustrated, but it works for my new preferred way to play. New Horizons doesn’t feel like a chore anymore, but I think that’s a change in me, rather than in the game itself."<a href="https://www.polygon.com/22783019/animal-crossing-new-horizons-final-review" target="_blank" rel="noopener noreferrer"></i></strong> -View full Polygon review</a></i></strong>
       </p>
     </div>
+    <section class="Collections">
+  <h1>All switch games</h1>
+  <ul>
+    {% for game in collections.switch %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>

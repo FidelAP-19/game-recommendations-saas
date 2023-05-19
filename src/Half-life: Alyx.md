@@ -4,6 +4,7 @@ layout: base.njk
 pageClass: PC Games
 tags:
   - games
+  - pc
 ---
 
 <div class="games-header">
@@ -51,5 +52,13 @@ tags:
         <strong><i>"The attention to detail is obvious not just in how the world looks but in the ways you can interact with it. Alyx's disembodied hands react wonderfully to each object in the world, and it's hard not to just stand there admiring the way my virtual fingers close in different ways depending on what I'm holding: curling around a bottle, gently clasping an iron railing, holding a discarded cigarette butt between my  thumb and forefinger, gripping an empty water jug by the handle, pulling up the antenna and then gently twisting the tuning knob on a radio. Even discovering I can pick up a marker to scrawl something on a dirty window pane, and then realizing I can use an eraser to wipe it off, is delightful. You could easily spend 15 minutes just messing around with the physical objects in the introduction, and that's exactly what I did."<a href="https://www.pcgamer.com/half-life-alyx-review/" target="_blank" rel="noopener noreferrer"></i></strong> -View full PC Gamer review</a>
       </p>
     </div>
+    <section class="Collections">
+  <h1>All pc games</h1>
+  <ul>
+    {% for game in collections.pc %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>
 
      

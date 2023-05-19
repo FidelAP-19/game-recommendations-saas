@@ -4,6 +4,7 @@ layout: base.njk
 pageClass: PC Games
 tags:
   - games
+  - pc
 ---
 
 <div class="games-header">
@@ -53,3 +54,11 @@ tags:
         <strong><i>"When Blizzard first announced that it was working on a massively multiplayer online game (MMO), the first thought that ran through my mind was "Why? Blizzard has no experience in this area. What can they bring that's going to be fresh, new, or different?" It's not until I began seriously playing the final version of World of Warcraft, though, that I realized just how foolish a question that was. Blizzard's particular genius has never been in breaking new ground; it's watching the mistakes other people make and learning from them. Blizzard games have the cache they do because they're polished and refined until they gleam. That, in a nutshell is the essential brilliance of World of Warcraft. It takes the essence of the MMO experience, breaks it down into its component parts, and plays up all the fun elements while actively minimizing the boring or tedious aspects. World of Warcraft is the MMO that nearly everybody can enjoy, and is a shining example of the game developer's art."<a href="http://pc.gamespy.com/pc/world-of-warcraft/571585p1.html" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Spy review</a>
       </p>
     </div>
+    <section class="Collections">
+  <h1>All pc games</h1>
+  <ul>
+    {% for game in collections.pc %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>

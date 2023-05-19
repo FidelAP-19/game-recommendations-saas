@@ -4,6 +4,7 @@ layout: base.njk
 pageClass: PC Games
 tags:
   - games
+  - pc
 ---
 <div class="games-header">
   <h1>PC Games</h1>
@@ -49,4 +50,12 @@ tags:
       <p>
         <strong><i>"While its graphics set it apart right away, EverQuest is going to last, not because it's pretty, but because it plays well. On the technical side, gameplay is smooth and mostly lag-free even over a 56K modem. Lag is rarely problematic even when it happens (you'll find yourself complaining about the long loading times between regions instead), though the occasional "lag death" has been witnessed. Otherwise, EverQuest offers dozens of different race and class combinations, which is perhaps the most enticing feature in the game. You can play a comparatively mundane fantasy character - a dwarf warrior or a human cleric, for instance - or you can choose something more exotic, like a dark elf necromancer or a troll shadowknight. The race you choose will critically affect your experience of the game, since most every race has a unique hometown, which you'll have to stick close to for the first several weeks of play. The class you choose is just as important, and all of them play differently, and most of them are fun. You'll want to try several combinations before you commit to one, but you can't realistically cultivate more than one or two characters."<a href="https://www.gamespot.com/reviews/everquest-review/1900-2535859/" target="_blank" rel="noopener noreferrer"></i></strong> -View full GameSpot review</a>
       </p>
-    </div> 
+    </div>
+    <section class="Collections">
+  <h1>All pc games</h1>
+  <ul>
+    {% for game in collections.pc %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section> 
