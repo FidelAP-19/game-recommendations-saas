@@ -15,8 +15,12 @@ pageClass: home
                 <h2 class="card__text-m">Ghost of Tsushima</h2>
               <p class="card__text-m">Ghost of Tshucima takes place in a war-ravaged setting with a relatable protagonist. It is one of the best open world games available on Playstation alongside God of War. The game manages to successfully depict the struggles of feudal Japan to the modern gamers. The developers use of Dualsense support when in combat and its beautiful landscapes which are depicted throughout the island make this game a must play for any game enthusiast.</p>
               <ul>
-                <li>DATE:July 17 2020</li>
-                <li>DEVELOPER:Sucker Punch Productions</li>
+                 <li><strong>Developer(s):</strong> 	Sucker Punch Productions</li>
+                <li><strong>Publisher(s):</strong> Sony Online Entertainment</li>
+                <li><strong>Platform(s):</strong> Playstation 4 and 5</li>
+                <li><strong>Release:</strong> July 17, 2020</li>
+                <li><strong>Genre(s):</strong> Action-Adventure</li>
+                <li><strong>Mode(s):</strong> Single player and Multiplayer</li>
               </ul>
             </div>
           </article>
@@ -24,5 +28,17 @@ pageClass: home
             <div class="card__img-m"><img src="/images/ps1.png" alt=""></div>
           </article>
      </section>
+        <div class="game_reviews">
+    <h3>Reviews</h3>
+      <p>
+        <strong><i>"Although Elden Ring beat it for Game of the Year, God of War Ragnarok stands out as one of the most anticipated PS5 games of 2022 and has certainly lived up to the hype, making it our number-one pick."<a href="https://gaminggorilla.com/best-ps5-exclusive-games/" target="_blank" rel="noopener noreferrer"></i></strong> -View full Gaming Gorilla review</a>
+      </p>
+        <p>
+        <strong><i>"God of War Ragnarok improves on 2018's already excellent God of War in every possible way — which says it all, really. It's a massive adventure spanning all nine realms of Norse mythology, and the game's jaw-dropping scope is probably its greatest asset. Just when you think you've seen it all, Ragnarok pops up with something completely new and exciting, time and time again. An immense experience, polished to near perfection. One of PlayStation Studios' best works."<a href="https://www.pushsquare.com/guides/best-ps5-exclusive-games?page=3" target="_blank" rel="noopener noreferrer"></i></strong> -View full Push Square review</a>
+      </p>
+       <p>
+        <strong><i>"Rarely does a game manage to meet everybody's expectations, particularly when the expectations in question are as high as the ones for God of War Ragnarok were in the build-up to the game's release. However, the developers absolutely smashed it, providing the perfect sequel to the series' 2018 installment as well as a fitting conclusion to Kratos and Atreus' epic adventures through Norse Mythology."<a href="https://gamerant.com/ps5-playstation-5-best-console-exclusive-games/#the-last-of-us-part-1" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Rant review</a>
+      </p>
+      </div>
 
     
