@@ -28,7 +28,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/switch3.png" alt="Animal Crossing: New Horizon"></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-4.png" alt="Animal Crossing: New Horizon"></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/epredator/50988828128">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
     <div class="game_reviews">

@@ -28,7 +28,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/switch2.png" alt="Legend of Zelda: Breath of the Wild"></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-2.png" alt="Legend of Zelda: Breath of the Wild"></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/douglastofoli/27905049221">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
     <div class="game_reviews">

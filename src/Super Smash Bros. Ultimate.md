@@ -29,7 +29,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/switch1.png" alt="Super Smash Bros. Ultimate"></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-3.png" alt="Super Smash Bros. Ultimate"></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/antdude3001/29124067107">flickr</a>
+             </figcaption>
+          </figure>
           </article>
      </section>
     <div class="game_reviews">

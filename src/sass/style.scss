@@ -13,8 +13,8 @@
   ADD YOUR CSS HERE 
   ================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Ballet&family=Birthstone&family=Bungee+Outline&family=Dosis:wght@300&family=Poppins:wght@100;200;300;600;900&family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,500&family=Lobster&family=Oleo+Script&family=Rowdies:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto&display=swap');
 
 html {
     box-sizing: border-box;
@@ -66,11 +66,22 @@ html {
   }
 
   p{
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
   }
 
   h2{
-    font-family: 'Oleo Script', cursive;
+    font-family:'Roboto', sans-serif;
+    font-weight: bolder;
+  }
+
+  .intro h1{
+    font-family: 'Creepster', cursive;
+    font-size: 4rem;
+  }
+
+  .games-header h1{
+    font-family:'Creepster', cursive ;
+    font-size: 3rem;
   }
 
 
@@ -81,8 +92,9 @@ html {
 
 .caption{
   text-align: center;
-  font-family:'Oleo Script', cursive;
+  font-family:'Roboto', sans-serif;
 }
+
 .intro{
   text-align: center;
   font-size: 30px;
@@ -91,8 +103,8 @@ html {
 
 .intro-main{
   text-align: center;
-  font-size: 50px;
-  font-family:Oleo Script;
+  font-size: 60px;
+  font-family:'Creepster', cursive;
 }
 
 
@@ -142,7 +154,29 @@ ul{
 }
 
 .card__content-m ul{
-  font-family: 'Oleo Script', cursive;
+  font-family:'Roboto', sans-serif;
+}
+
+.img-container{
+  position: relative;
+  margin: 0; /* remove figure margins */
+}
+
+.img-container img{
+  display: block; 
+  /* setting the display to block 
+  removes the gap under the image */
+}
+
+.img-caption{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255,255,255,.7);
+  
+  padding: 5px 10px;
+  font-size: .85rem;
+  
 }
 
 

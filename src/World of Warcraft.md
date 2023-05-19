@@ -29,7 +29,12 @@ tags:
           </article>
           <article class="card-m">
             <div class="card__img-m">
-              <img src="/images/pc2.png" alt="World of Warcraft">
+            <figure class="img-container">
+              <img src="/images/game-main-6.png" alt="World of Warcraft">
+              <figcaption class="img-caption">
+               Photo from <a href="https://snl.no/World_of_Warcraft">snl.no</a>
+             </figcaption>
+             </figure>
             </div>
           </article>
   </section>

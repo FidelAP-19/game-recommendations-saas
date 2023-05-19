@@ -8,7 +8,11 @@ pageClass: home
     <section class="grid-1">
 
          <div class="card__img-1">
+         <figure class="img-container">
           <img src="/images/about.png" alt="">
+               Photo from <a href="https://www.hippopx.com/en/gaming-mouse-keyboard-monitor-night-computer-technology-467460">hippopx</a>
+             </figcaption>
+             </figure>
          </div>
           <article class="card-2">
             <div class="card__content">

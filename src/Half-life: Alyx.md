@@ -28,7 +28,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/pc1.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-1.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/duncan/1805000907">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
     <div class="game_reviews">

@@ -1,7 +1,9 @@
 /* Base Styling for headings  */
   h1{
     font-size: 1.5em;
-    font-family: 'Lobster', cursive;;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
   }
 
 
@@ -88,8 +90,7 @@ html {
 -webkit-box-shadow: 8px 5px 30px 0px rgba(0,0,0,0.44);
 -moz-box-shadow: 8px 5px 30px 0px rgba(0,0,0,0.44);
 }
-
-h1, h2{
+ h2{
   color:#333;
   text-align: center;
 /*   margin-left: 6px; */
@@ -116,7 +117,7 @@ h1, h2{
   border: 0px;
 }
 .card__btn strong{
-  font-family: 'Oleo Script', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*   margin-left: 6px; */
@@ -129,5 +130,5 @@ a:hover {
 
 .card__content{
   padding: 20px 40px 20px 40px;
-  font-family: 'Oleo Script', cursive;
+  font-family: 'Roboto', sans-serif;
 }
