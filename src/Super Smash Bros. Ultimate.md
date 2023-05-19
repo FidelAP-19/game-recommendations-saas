@@ -4,6 +4,7 @@ layout: base.njk
 pageClass: Nintendo Switch Games
 tags:
   - games
+  - switch
 ---
 
 <div class="games-header">
@@ -52,3 +53,11 @@ tags:
         <strong><i>"How does this 'ultimate' version of Smash stack up against the rest? Vocal concerns about past games were actively addressed. Every single fighter from the series is present (even Pichu) and joined by a colossal roster of DLC characters from the annals of gaming (let's not forget that this is the game responsible for bringing Banjo and Kazooie back home to a Nintendo console). The customisability is overwhelmingly vast, and it’s all topped off with super-solid single-player modes to boot. We’re not sure how you could make a more robust or pleasing Smash game. Super Smash Bros. Ultimate truly is the ultimate instalment in the series, and it makes you wonder where Masahiro Sakurai can possibly take this franchise next."<a href="https://www.nintendolife.com/guides/50-best-nintendo-switch-games-so-far?page=5" target="_blank" rel="noopener noreferrer"></i></strong> -View full Nintendo Life review</a>
       </p>
     </div>
+    <section class="Collections">
+  <h1>All switch games</h1>
+  <ul>
+    {% for game in collections.switch %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>

@@ -4,6 +4,7 @@ layout: base.njk
 pageClass: Nintendo Switch Games
 tags:
   - games
+  - switch
 ---
 
 <div class="games-header">
@@ -50,3 +51,11 @@ tags:
         <strong><i>"Breath of the Wild opens with series hero Link awakening in a dark cavern. A mysterious disembodied voice guides him to a tablet that has a passing resemblance to both the Switch and Nintendo's maligned Wii U controller. The tablet helps to navigate this version of Hyrule — the fantasy realm that has long been the heart of Zelda adventures. As you learn in the very early parts of the game, a century ago, powerful evil destroyed much of the world, allowing nature to reclaim castles, and littering the land with abandoned machines of war. People still exist, in small towns and stables, but much of Hyrule is beset by hordes of monsters who have bivouacked into the hills. This is a dangerous place. Naturally, your job is to set things right."<a href="https://www.theverge.com/2017/3/2/14787082/the-legend-of-zelda-breath-of-the-wild-review" target="_blank" rel="noopener noreferrer"></i></strong> -View full The Verge review</a>
       </p>
     </div>
+  <section class="Collections">
+  <h1>All switch games</h1>
+  <ul>
+    {% for game in collections.switch %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>
