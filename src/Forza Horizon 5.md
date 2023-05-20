@@ -1,13 +1,16 @@
 ---
-title: game
+title: Forza Horizon 5
 layout: base.njk
-tags: navItem
+tags: 
+   - navItem
+   - xbox
 pageClass: home
 ---
 
 
-
-
+<div class="games-header">
+  <h1>Xbox Games</h1>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -24,7 +27,12 @@ pageClass: home
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/xbox1.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-11.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/194744165@N02/51861231541">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
      <div class="game_reviews">
@@ -39,5 +47,13 @@ pageClass: home
         <strong><i>"Without question, Forza Horizon 5 is one of the best racing games there is, not just on Xbox. The Series X enhanced version runs excellently, too."<a href="https://www.digitaltrends.com/gaming/best-xbox-series-x-exclusives/?amp" target="_blank" rel="noopener noreferrer"></i></strong> -View full Digital Trends review</a>
       </p>
       </div>
+  <section class="Collections">
+  <h1>All xbox games</h1>
+  <ul>
+    {% for game in collections.xbox %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>
 
      

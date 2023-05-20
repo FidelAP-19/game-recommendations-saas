@@ -1,13 +1,16 @@
 ---
-title: game
+title: Immortality
 layout: base.njk
-tags: navItem
+tags: 
+    - navItem
+    - xbox
 pageClass: home
 ---
 
 
-
-
+<div class="games-header">
+  <h1>Xbox Games</h1>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -24,7 +27,12 @@ pageClass: home
             </div>
           </article>
           <article class="card-m">
+          <figure class="img-container">
             <div class="card__img-m"><img src="/images/xbox3.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://en.wikipedia.org/wiki/Immortality_(video_game)">wikipedia</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
      <div class="game_reviews">
@@ -39,5 +47,13 @@ pageClass: home
         <strong><i>"A game like Immortality could only come from the mindthat created a game like Her Story. This is another full-motion video-style game, but it represents the peak of pushing that genre to the limits. You’re once again scrubbing through real video footage trying to unravel a mystery, but instead of seeing clips and searching keywords like Her Story, this time you swap between scenes by selecting people or objects to find other scenes they appeared in. It doesn’t sound like it should work, but trust us, it does. This is one of the most satisfying stories to unravel, made all the more interesting in how each player will uncover clues at different times, in different orders, and through different paths."<a href="https://www.digitaltrends.com/gaming/best-xbox-series-x-exclusives/?amp" target="_blank" rel="noopener noreferrer"></i></strong> -View full Digital Trends review</a>
       </p>
       </div>
+    <section class="Collections">
+  <h1>All xbox games</h1>
+  <ul>
+    {% for game in collections.xbox %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>
 
      

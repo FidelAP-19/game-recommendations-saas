@@ -1,14 +1,16 @@
 ---
-title: game
+title: Halo Infinite
 layout: base.njk
-tags: navItem
+tags: 
+    - navItem
+    - xbox
 pageClass: home
 ---
 
 
-
-
-
+<div class="games-header">
+  <h1>Xbox Games</h1>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -25,7 +27,12 @@ pageClass: home
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/xbox2.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-10.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/195579570@N07/52074349354">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
      <div class="game_reviews">
@@ -40,5 +47,13 @@ pageClass: home
         <strong><i>"Of all the franchises out there, Microsoft is most closely tied with the Halo series. It essentially was the reason to buy the original Xbox when it first launched and pioneered not only the first-person genre on consoles, but revolutionized online multiplayer too. Xbox owes a lot to this franchise, so it makes sense that they would want to keep it alive. Despite being delayed for two years after the Series X and S launched, we finally got our first taste of a brand new Halo game on these upgraded machines in the form of Halo: Infinite.  Split between the free-to-play multiplayer and campaign, this Halo is a little light on content but promises to continue to grow over time. At the core, though, the gameplay is more than enough reason to jump in. This throwback to the classic arena-style shooter is a breath of fresh air in a genre filled with specialists, loadouts, complex abilities, and overpowered builds."<a href="https://www.digitaltrends.com/gaming/best-xbox-series-x-exclusives/?amp" target="_blank" rel="noopener noreferrer"></i></strong> -View full Digital Trends review</a>
       </p>
       </div>
+    <section class="Collections">
+  <h1>All xbox games</h1>
+  <ul>
+    {% for game in collections.xbox %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>
 
     

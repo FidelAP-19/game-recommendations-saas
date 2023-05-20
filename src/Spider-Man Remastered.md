@@ -1,14 +1,17 @@
 ---
-title: game
+title: Spider-Man Remastered
 layout: base.njk
-tags: navItem
+tags: 
+    - navItem
+    - ps
 pageClass: home
 ---
 
 
 
-
-
+<div class="games-header">
+  <h1>Ps Games</h1>
+</div>
     <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -25,7 +28,12 @@ pageClass: home
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/ps3.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-9.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.trustedreviews.com/news/marvels-spider-man-system-requirements-4251649">trustedreviews</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
             <div class="game_reviews">
@@ -41,4 +49,12 @@ pageClass: home
         <strong><i>"Fortunately, Insomniac has retrofitted Peter Parker’s adventure with all the outstanding tech it developed for Miles, including improved lighting and frame rates, ray-traced reflections, lightning-fast load times, and DualSense haptic feedback. And they replaced Peter’s face… which is weird, but at least it showcases the major improvements to facial animations. This is a game that was already worth replaying on PS4, but now that it’s on PS5 it’s a great time to revisit New York and see it at its best."<a href="https://www.ign.com/articles/marvels-spider-man-remastered-review" target="_blank" rel="noopener noreferrer"></i></strong> -View full IGN review</a>
       </p>
       </div>
+      <section class="Collections">
+  <h1>All ps games</h1>
+  <ul>
+    {% for game in collections.ps %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section> 
      

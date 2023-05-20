@@ -1,13 +1,15 @@
 ---
-title: game
+title: Ghost of Tsushima
 layout: base.njk
-tags: navItem
+tags: 
+    - navItem
+    - ps
 pageClass: home
 ---
 
-
-
-
+<div class="games-header">
+  <h1>Ps Games</h1>
+</div>
 
     <section class="grid-m">
         <article class="card-m">
@@ -25,7 +27,12 @@ pageClass: home
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/ps1.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-8.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/omegapepper/50133249097">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
         <div class="game_reviews">
@@ -40,5 +47,12 @@ pageClass: home
         <strong><i>"Rarely does a game manage to meet everybody's expectations, particularly when the expectations in question are as high as the ones for God of War Ragnarok were in the build-up to the game's release. However, the developers absolutely smashed it, providing the perfect sequel to the series' 2018 installment as well as a fitting conclusion to Kratos and Atreus' epic adventures through Norse Mythology."<a href="https://gamerant.com/ps5-playstation-5-best-console-exclusive-games/#the-last-of-us-part-1" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Rant review</a>
       </p>
       </div>
-
+      <section class="Collections">
+  <h1>All ps games</h1>
+  <ul>
+    {% for game in collections.ps %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section> 
     
