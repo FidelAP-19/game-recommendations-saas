@@ -3,13 +3,18 @@
   ================================================ */
 //This is not necessary. Opinionated to remove default margin from body to allow things to go all the way across the screen.
 
+h3{
+  text-align: center;
+  font-size: 48px;
+}
+
 .game_reviews{
   margin-left: 5em;
   margin-right: 5em;
 }
 
 .game_reviews h3{
-  font-size: 42px;
+  font-size: 48px;
   text-align: center;
 }
 
@@ -28,4 +33,32 @@
 .game_reviews p a:hover{
   color: blue;
   text-decoration: underline;
+}
+
+.game_numeric_reviews{
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+.game_numeric_review{
+  font-size: 24px;
+}
+
+.game_numeric_review p{
+  font-size: 20px;
+}
+
+.game_awards{
+  text-align: center;
+  padding-bottom: 2em;
+  font-size: 24px;
+}
+
+.game_award{
+  padding-bottom: 1em;
 }

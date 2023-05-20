@@ -207,6 +207,9 @@ ul{
   }
   .grid-1 .section-head{
     grid-column: 1/-1;
+  } 
+  .game_numeric_reviews{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 /* end min-width: 600px */
