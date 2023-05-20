@@ -39,8 +39,7 @@ tags:
           </article>
      </section>
     <div class="game_reviews">
-      <h3>Reviews</h3>
-      <p>
+      <h3><strong>Reviews</strong></h3>      <p>
         <strong><i>"SuperSuper Smash Bros. Ultimate’s title alone promises the biggest, best and most complete Smash Bros. to date. Yet the word “ultimate” can also be read not as an enthusiastic superlative, but merely as a coda to the franchise, a blunt culmination of its design. This is the ultimate Smash Bros. because its scope is so massive that it’s hard to imagine adding anything else."<a href="https://www.polygon.com/reviews/2018/12/6/18128504/super-smash-bros-ultimate-review-nintendo-switch" target="_blank" rel="noopener noreferrer"></i></strong> -View full Polygon review</a>
       </p>
       <p>   
@@ -53,8 +52,49 @@ tags:
         <strong><i>"How does this 'ultimate' version of Smash stack up against the rest? Vocal concerns about past games were actively addressed. Every single fighter from the series is present (even Pichu) and joined by a colossal roster of DLC characters from the annals of gaming (let's not forget that this is the game responsible for bringing Banjo and Kazooie back home to a Nintendo console). The customisability is overwhelmingly vast, and it’s all topped off with super-solid single-player modes to boot. We’re not sure how you could make a more robust or pleasing Smash game. Super Smash Bros. Ultimate truly is the ultimate instalment in the series, and it makes you wonder where Masahiro Sakurai can possibly take this franchise next."<a href="https://www.nintendolife.com/guides/50-best-nintendo-switch-games-so-far?page=5" target="_blank" rel="noopener noreferrer"></i></strong> -View full Nintendo Life review</a>
       </p>
     </div>
+    <h3><strong>Review Scores</strong></h3>
+    <div class="game_numeric_reviews">
+      <div class="game_numeric_review">
+        <strong>Electronic Gaming Monthly</strong>
+        <p>9.5/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Destructoid</strong>
+        <p>9.5/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>GamePro</strong>
+        <p>87/100</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>IGN</strong>
+        <p>9.4/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Nintendo World Report</strong>
+        <p>9/10</p>
+      </div>
+    </div>
+    <h3><strong>Awards</strong></h3>
+    <div class="game_awards">
+      <div class="game_award">
+        <p><strong>Game Critics Award for Best Fighting Game<br>2018</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>SXSW Gaming Award for Excellence in Gameplay<br>2019</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>Golden Joystick Award for Nintendo Game of the Year<br>2019</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>The Game Award for Best Fighting Game<br>2019</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>Japan Game Award for Excellence Award<br>2019</strong></p>
+      </div>
+    </div>
     <section class="Collections">
-  <h1>All switch games</h1>
+  <h1>All Switch Games</h1>
   <ul>
     {% for game in collections.switch %}      
       <li><a href="{{game.url}}">{{game.data.title}}</a></li>

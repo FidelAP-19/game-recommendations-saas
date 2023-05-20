@@ -30,7 +30,7 @@ pageClass: home
           </figure>
             <div class="card__content">
               <h1 class="card__header">God of War: Ragnarok</h1>
-              <a href="/God of War:Ragnarok" class="card__btn"><strong>View</strong></a>
+              <a href="/God of War: Ragnarok" class="card__btn"><strong>View</strong></a>
             </div>
           </article>
           <article class="card">

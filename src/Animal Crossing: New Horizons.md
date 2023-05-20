@@ -38,7 +38,7 @@ tags:
           </article>
      </section>
     <div class="game_reviews">
-    <h3>Reviews</h3>
+    <h3><strong>Reviews</strong></h3>      
       <p>
         <strong><i>"Released on the doorstep of a global pandemic, Animal Crossing: New Horizons provided a much need escape to many, selling nearly 34 million copies to date. Routine and discovery play equally important roles as you plan the perfect layout for your island, make friends (or enemies) with all your villagers, and invite your friends to your own little utopia to trade items and swap secrets. It’s brilliant in its simplicity and masterful in the way it encourages players to keep up with chores, redecorate and/or reshape entire plots of land, or burn dozens of hours trying to catch rare fish or find every last seasonal item. It certainly helps that all the writing is supremely funny and that, hundreds of hours in, you’re still able to chuckle at a random comment or find genuine inspiration in the places you’d least expect."<a href="https://www.ign.com/articles/best-nintendo-switch-games-2" target="_blank" rel="noopener noreferrer"></i></strong> -View full IGN review</a>
       </p>
@@ -52,8 +52,49 @@ tags:
         <strong><i>"It’s clear, of course, that Nintendo wants this new update to keep players interested in New Horizons for as long as possible; the days-long time gating is a clear indicator of that. Players who want new content to keep them busy for more hours on end will likely be frustrated, but it works for my new preferred way to play. New Horizons doesn’t feel like a chore anymore, but I think that’s a change in me, rather than in the game itself."<a href="https://www.polygon.com/22783019/animal-crossing-new-horizons-final-review" target="_blank" rel="noopener noreferrer"></i></strong> -View full Polygon review</a></i></strong>
       </p>
     </div>
+    <h3><strong>Review Scores</strong></h3>
+    <div class="game_numeric_reviews">
+      <div class="game_numeric_review">
+        <strong>4Players</strong>
+        <p>8.5/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Famitsu</strong>
+        <p>38/40</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>GamesRadar+</strong>
+        <p>4.5 out of 5 Stars</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>IGN</strong>
+        <p>9/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Pocket Gamer</strong>
+        <p>5/5</p>
+      </div>
+    </div>
+    <h3><strong>Awards</strong></h3>
+    <div class="game_awards">
+      <div class="game_award">
+        <p><strong>The Game Award for Best Family Game<br>2020</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>Japan Game Award for Game of the Year<br>2020</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>Japan Game Award for Award for Excellence<br>2020</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>Golden Joystick Award for Nintendo Game of the Year<br>2020</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>British Academy Games Award for Game Beyond Entertainment<br>2021</strong></p>
+      </div>
+    </div>
     <section class="Collections">
-  <h1>All switch games</h1>
+  <h1>All Switch Games</h1>
   <ul>
     {% for game in collections.switch %}      
       <li><a href="{{game.url}}">{{game.data.title}}</a></li>

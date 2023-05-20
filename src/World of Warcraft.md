@@ -40,8 +40,7 @@ tags:
           </article>
   </section>
     <div class="game_reviews">
-    <h3>Reviews</h3>
-      <p>
+    <h3><strong>Reviews</strong></h3>      <p>
         <strong><i>"Nearly two decades after its initial release, World of Warcraft is still one of the biggest names in online gaming. Most MMO players cut their teeth on this massive title and it has remained hugely influential throughout multiple expansions and re-releases over the years. WoW might not be the only name in MMOs anymore, but it is still one of the best PC-exclusive games you’ll find."<a href="https://www.gamepur.com/guides/the-ten-best-pc-exclusive-games-of-all-time" target="_blank" rel="noopener noreferrer"></i></strong> -View full Gamepur review</a>
       </p>
       <p>   
@@ -54,8 +53,43 @@ tags:
         <strong><i>"When Blizzard first announced that it was working on a massively multiplayer online game (MMO), the first thought that ran through my mind was "Why? Blizzard has no experience in this area. What can they bring that's going to be fresh, new, or different?" It's not until I began seriously playing the final version of World of Warcraft, though, that I realized just how foolish a question that was. Blizzard's particular genius has never been in breaking new ground; it's watching the mistakes other people make and learning from them. Blizzard games have the cache they do because they're polished and refined until they gleam. That, in a nutshell is the essential brilliance of World of Warcraft. It takes the essence of the MMO experience, breaks it down into its component parts, and plays up all the fun elements while actively minimizing the boring or tedious aspects. World of Warcraft is the MMO that nearly everybody can enjoy, and is a shining example of the game developer's art."<a href="http://pc.gamespy.com/pc/world-of-warcraft/571585p1.html" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Spy review</a>
       </p>
     </div>
+    <h3><strong>Review Scores</strong></h3>    <div class="game_numeric_reviews">
+      <div class="game_numeric_review">
+        <strong>1Up.com</strong>
+        <p>A</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Edge</strong>
+        <p>9/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Game Informer</strong>
+        <p>9.5/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>PC Zone</strong><p>95%</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>GamePro</strong>
+        <p>4.5/5</p>
+      </div>
+    </div>
+    <h3><strong>Awards</strong></h3>    <div class="game_awards">
+      <div class="game_award">
+        <p><strong>Technology and Engineering Emmy Award for Outstanding Achievement in Video Gaming Technology and Applications<br>2008</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>VGX Award for Best PC Game<br>2005</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>VGX Award for Best RPG<br>2005</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>VGX Award for Most Addictive Video Game<br>2005</strong></p>
+      </div>
+    </div>
     <section class="Collections">
-  <h1>All pc games</h1>
+  <h1>Other PC Games</h1>
   <ul>
     {% for game in collections.pc %}      
       <li><a href="{{game.url}}">{{game.data.title}}</a></li>

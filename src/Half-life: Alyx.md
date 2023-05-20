@@ -38,8 +38,7 @@ tags:
           </article>
      </section>
     <div class="game_reviews">
-      <h3>Reviews</h3>
-      <p>
+      <h3><strong>Reviews</strong></h3>      <p>
         <strong><i>"Probably the biggest change introduced in Episode One is how Alyx fights at Gordon's side for the majority of the game. Plenty of shooters have tried this and failed, with NPCs who get lost or get in the way or are just plain annoying. Valve strikes just the right notes with Alyx; she doesn't nag Gordon, she can competently follow you around, and even provides useful support a lot of the time. There's a fun sequence in the later chapters where you're free to run ahead and fight alone, but it's far more fun to draw enemies into Alyx's line of sight so she can snipe them from afar. Aside from her use in combat, Alyx is also effectively used to put a human face on things and keep the story moving along, and Episode One is a better game for it."<a href="http://pc.gamespy.com/pc/half-life-2-aftermath/710990p2.html" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Spy review</a>
       </p>
       <p>   
@@ -52,8 +51,47 @@ tags:
         <strong><i>"The attention to detail is obvious not just in how the world looks but in the ways you can interact with it. Alyx's disembodied hands react wonderfully to each object in the world, and it's hard not to just stand there admiring the way my virtual fingers close in different ways depending on what I'm holding: curling around a bottle, gently clasping an iron railing, holding a discarded cigarette butt between my  thumb and forefinger, gripping an empty water jug by the handle, pulling up the antenna and then gently twisting the tuning knob on a radio. Even discovering I can pick up a marker to scrawl something on a dirty window pane, and then realizing I can use an eraser to wipe it off, is delightful. You could easily spend 15 minutes just messing around with the physical objects in the introduction, and that's exactly what I did."<a href="https://www.pcgamer.com/half-life-alyx-review/" target="_blank" rel="noopener noreferrer"></i></strong> -View full PC Gamer review</a>
       </p>
     </div>
+    <h3><strong>Review Scores</strong></h3>    <div class="game_numeric_reviews">
+      <div class="game_numeric_review">
+        <strong>Destructoid</strong>
+        <p>9/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Edge</strong>
+        <p>9/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Game Informer</strong>
+        <p>9/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>PC Zone</strong>
+        <p>95%</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>IGN</strong>
+        <p>10/10</p>
+      </div>
+    </div>
+    <h3><strong>Awards</strong></h3>    <div class="game_awards">
+      <div class="game_award">
+        <p><strong>The Game Awards for Best VR/AR Game<br>2020</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>NAVGTR Award for Contral Desgin<br>2021</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>NAVGTR Award for Contral Desgin for Direction in Virtual Realit<br>2021</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>SXSW Gaming Award for VR Game of the Year<br>2021</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>AIAS DICE Award for Immersive Reality Game of the Year<br>2021</strong></p>
+      </div>
+    </div>
     <section class="Collections">
-  <h1>All pc games</h1>
+  <h1>Other PC Games</h1>
   <ul>
     {% for game in collections.pc %}      
       <li><a href="{{game.url}}">{{game.data.title}}</a></li>

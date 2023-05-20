@@ -38,7 +38,7 @@ tags:
           </article>
      </section>
     <div class="game_reviews">
-    <h3>Reviews</h3>
+    <h3><strong>Reviews</strong></h3>
       <p>
         <strong><i>"The Legend of Zelda: Breath of the Wild was a landmark release, both for its franchise and Nintendo. It was the first time that Nintendo truly took on the open-world genre, and by arriving late to the party it embraced the strengths from top-of-the-class games while also forging its own unique identity. This game was a revolution for the series, but the Legend of Zelda essence is still there — its soul remains, and the end result is captivating. After years of following the same old template, Nintendo bravely took Zelda in a new direction, and delivered an absolute triumph which still has us regularly revisiting its iteration of Hyrule. Breath of the Wild forged a new and exciting path ahead and we cannot wait to see where it takes the series."<a href="https://www.nintendolife.com/guides/50-best-nintendo-switch-games-so-far?page=5" target="_blank" rel="noopener noreferrer"></i></strong> -View full Nintendo Life review</a>
       </p>
@@ -51,8 +51,49 @@ tags:
         <strong><i>"Breath of the Wild opens with series hero Link awakening in a dark cavern. A mysterious disembodied voice guides him to a tablet that has a passing resemblance to both the Switch and Nintendo's maligned Wii U controller. The tablet helps to navigate this version of Hyrule — the fantasy realm that has long been the heart of Zelda adventures. As you learn in the very early parts of the game, a century ago, powerful evil destroyed much of the world, allowing nature to reclaim castles, and littering the land with abandoned machines of war. People still exist, in small towns and stables, but much of Hyrule is beset by hordes of monsters who have bivouacked into the hills. This is a dangerous place. Naturally, your job is to set things right."<a href="https://www.theverge.com/2017/3/2/14787082/the-legend-of-zelda-breath-of-the-wild-review" target="_blank" rel="noopener noreferrer"></i></strong> -View full The Verge review</a>
       </p>
     </div>
+    <h3><strong>Review Scores</strong></h3>
+    <div class="game_numeric_reviews">
+      <div class="game_numeric_review">
+        <strong>Electronic Gaming Monthly</strong>
+        <p>9.5/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Polygon</strong>
+        <p>10/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Destructoid</strong>
+        <p>10/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>Nintendo World Report</strong>
+        <p>9.5/10</p>
+      </div>
+      <div class="game_numeric_review">
+        <strong>VideoGamer.com</strong>
+        <p>9/10</p>
+      </div>
+    </div>
+    <h3><strong>Awards</strong></h3>
+    <div class="game_awards">
+      <div class="game_award">
+        <p><strong>Game Critics Award for Best Console Game<br>2016</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>The Game Award for Most Anticipated Game<br>2016</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>Golden Joystick Award for Ultimate Game of the Year<br>2017</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>SXSW Gaming Award for Video Game of the Year<br>2018</strong></p>
+      </div>
+      <div class="game_award">
+        <p><strong>Game Developers Choice Award for Game of the Year<br>2018</strong></p>
+      </div>
+    </div>
   <section class="Collections">
-  <h1>All switch games</h1>
+  <h1>All Switch Games</h1>
   <ul>
     {% for game in collections.switch %}      
       <li><a href="{{game.url}}">{{game.data.title}}</a></li>
