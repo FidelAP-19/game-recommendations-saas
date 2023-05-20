@@ -1,9 +1,9 @@
 ---
 title: Legend of Zelda Breath of the Wild
 layout: base.njk
-pageClass: Nintendo Switch Games
+pageClass: Nintendo Switch Game
 tags:
-  - games
+  - game
   - switch
 ---
 

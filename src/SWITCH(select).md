@@ -1,25 +1,16 @@
 ---
-title: select
+title: Swtich Games
 layout: base.njk
-tags: navItem
 pageClass: home
+tags: 
+ - navItem
 ---
 
-
-
-    <nav class="site-main">
-
+   <nav class="site-main">
         <div class="intro">
            <h1>NINTENDO SWITCH</h1>
-
         </div>
-
-
-
     </nav>
-
-
-
     <section class="grid-select">
           <article class="card">
           <figure class="img-container">
@@ -58,8 +49,3 @@ pageClass: home
             </div>
           </article>
        </section>
-
-
-
-
-       

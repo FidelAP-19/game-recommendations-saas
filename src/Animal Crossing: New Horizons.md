@@ -1,9 +1,9 @@
 ---
 title: Animal Crossing New Horizons
 layout: base.njk
-pageClass: Nintendo Switch Games
+pageClass: Nintendo Switch Game
 tags:
-  - games
+  - game
   - switch
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: Home
 layout: base.njk
-tags: navItem
 pageClass: home
+tags: 
+ - navItem
 ---
   <nav class="site-main">
         <div class="intro-image">

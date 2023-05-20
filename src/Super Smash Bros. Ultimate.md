@@ -1,9 +1,9 @@
 ---
 title: Super Smash Bros. Ultimate
 layout: base.njk
-pageClass: Nintendo Switch Games
+pageClass: Nintendo Switch Game
 tags:
-  - games
+  - game
   - switch
 ---
 

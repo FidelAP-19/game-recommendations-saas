@@ -1,12 +1,15 @@
 ---
 title: Halo Infinite
 layout: base.njk
-pageClass: Xbox Games
+pageClass: Xbox Game
 tags:
-  - games
+  - game
   - xbox
 ---
 
+<div class="games-header">
+  <h1>Xbox Games</h1>
+</div>
   <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -93,5 +96,3 @@ tags:
     {% endfor %}
   </ul>
   </section>
-
-    

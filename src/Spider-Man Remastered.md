@@ -1,12 +1,15 @@
 ---
 title: Spider-Man Remastered
 layout: base.njk
-pageClass: PS Games
+pageClass: PS Game
 tags: 
- - games
+ - game
  - ps
 ---
 
+<div class="games-header">
+  <h1>PS Games</h1>
+</div>
   <section class="grid-m">
         <article class="card-m">
             <div class="card__content-m">
@@ -94,5 +97,4 @@ tags:
       <li><a href="{{game.url}}">{{game.data.title}}</a></li>
     {% endfor %}
   </ul>
-  </section> 
-     
+  </section>

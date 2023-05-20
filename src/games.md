@@ -1,8 +1,9 @@
 ---
-title: Games
+title: Platforms
 layout: base.njk
-tags: navItem
 pageClass: Games
+tags: 
+ - navItem
 ---
 <nav class="site-main">
         <!-- <div class="intro-image">

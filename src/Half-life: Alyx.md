@@ -1,9 +1,9 @@
 ---
 title: Half-life Alyx
 layout: base.njk
-pageClass: PC Games
+pageClass: PC Game
 tags:
-  - games
+  - game
   - pc
 ---
 
@@ -98,5 +98,3 @@ tags:
     {% endfor %}
   </ul>
   </section>
-
-     

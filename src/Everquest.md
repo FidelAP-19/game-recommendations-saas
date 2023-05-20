@@ -1,9 +1,9 @@
 ---
 title: Everquest
 layout: base.njk
-pageClass: PC Games
+pageClass: PC Game
 tags:
-  - games
+  - game
   - pc
 ---
 <div class="games-header">

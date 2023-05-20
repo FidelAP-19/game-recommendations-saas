@@ -1,9 +1,9 @@
 ---
 title: World of Warcraft
 layout: base.njk
-pageClass: PC Games
+pageClass: PC Game
 tags:
-  - games
+  - game
   - pc
 ---
 

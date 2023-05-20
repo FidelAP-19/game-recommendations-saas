@@ -1,12 +1,12 @@
 ---
 title: About
 layout: base.njk
-tags: navItem
 pageClass: home
+tags: 
+ - navItem
 ---
 
-    <section class="grid-1">
-
+  <section class="grid-1">
          <div class="card__img-1">
          <figure class="img-container">
           <img src="/images/about.png" alt="">
