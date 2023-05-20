@@ -43,6 +43,9 @@ tags:
        <p>
         <strong><i>"Rarely does a game manage to meet everybody's expectations, particularly when the expectations in question are as high as the ones for God of War Ragnarok were in the build-up to the game's release. However, the developers absolutely smashed it, providing the perfect sequel to the series' 2018 installment as well as a fitting conclusion to Kratos and Atreus' epic adventures through Norse Mythology."<a href="https://gamerant.com/ps5-playstation-5-best-console-exclusive-games/#the-last-of-us-part-1" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Rant review</a>
       </p>
+      <p>
+        <strong><i>"Rarely does a game manage to meet everybody's expectations, particularly when the expectations in question are as high as the ones for God of War Ragnarok were in the build-up to the game's release. However, the developers absolutely smashed it, providing the perfect sequel to the series' 2018 installment as well as a fitting conclusion to Kratos and Atreus' epic adventures through Norse Mythology."<a href="https://gamerant.com/ps5-playstation-5-best-console-exclusive-games/#the-last-of-us-part-1" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Rant review</a>
+      </p>
       </div>
       <h3><strong>Review Scores</strong></h3>
     <div class="game_numeric_reviews">
@@ -85,9 +88,6 @@ tags:
         <p><strong>British Academy Games Award for Animation<br>2023</strong></p>
       </div>
     </div>
-        <strong><i>"Rarely does a game manage to meet everybody's expectations, particularly when the expectations in question are as high as the ones for God of War Ragnarok were in the build-up to the game's release. However, the developers absolutely smashed it, providing the perfect sequel to the series' 2018 installment as well as a fitting conclusion to Kratos and Atreus' epic adventures through Norse Mythology."<a href="https://gamerant.com/ps5-playstation-5-best-console-exclusive-games/#the-last-of-us-part-1" target="_blank" rel="noopener noreferrer"></i></strong> -View full Game Rant review</a></i>
-      </p>
-      </div>
       <section class="Collections">
   <h1>All PS Games</h1>
   <ul>

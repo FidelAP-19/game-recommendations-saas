@@ -15,7 +15,7 @@ tags:
             <div class="card__content-m">
                 <h2 class="card__text-m">Half-life: Alyx</h2>
               <p class="card__text-m">
-                Half-Life: Alyx is a groundbreaking virtual reality (VR) game that takes players back to the iconic Half-Life universe. Set between the events of Half-Life and Half-Life 2, players assume the role of Alyx Vance as she fights against an alien occupation in City 17. In this immersive VR experience, players utilize a variety of weapons, tools, and puzzle-solving abilities to overcome obstacles and defeat enemies. The game showcases innovative VR mechanics, allowing players to interact with the environment, solve intricate puzzles, and engage in intense combat with a wide range of enemies. With stunning visuals, atmospheric environments, and a compelling storyline, Half-Life: Alyx offers an immersive and unforgettable adventure that pushes the boundaries of what is possible in virtual reality gaming. It is a must-play for fans of the Half-Life series and VR enthusiasts alike.
+                Half-Life: Alyx is an acclaimed virtual reality (VR) game for PC that immerses players in the iconic Half-Life universe. Set between the events of Half-Life and Half-Life 2, players assume the role of Alyx Vance as she battles against alien creatures in the dystopian City 17. With its innovative VR mechanics, intense combat, and atmospheric environments, Half-Life: Alyx delivers a groundbreaking and immersive gaming experience that has redefined what is possible in virtual reality gaming.
               </p>
               <ul>
                 <li><strong>Developer(s):</strong> Valve</li>
