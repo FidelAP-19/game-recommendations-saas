@@ -23,7 +23,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/xbox2.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-10.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/195579570@N07/52074349354">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
      <div class="game_reviews">
@@ -80,3 +85,13 @@ tags:
         <p><strong>Game Audio Network Guild Award for Excellence in Audio Accessibility<br>2022</strong></p>
       </div>
     </div>
+    <section class="Collections">
+  <h1>All Xbox Games</h1>
+  <ul>
+    {% for game in collections.xbox %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>
+
+    

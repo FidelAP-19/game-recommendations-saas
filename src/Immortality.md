@@ -23,7 +23,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
+          <figure class="img-container">
             <div class="card__img-m"><img src="/images/xbox3.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://en.wikipedia.org/wiki/Immortality_(video_game)">wikipedia</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
     <div class="game_reviews">
@@ -79,3 +84,13 @@ tags:
         <p><strong>British Academy Games Award for Narrative<br>2023</strong></p>
       </div>
     </div>
+    <section class="Collections">
+  <h1>All Xbox Games</h1>
+  <ul>
+    {% for game in collections.xbox %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section>
+
+     

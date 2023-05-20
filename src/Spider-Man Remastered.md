@@ -23,7 +23,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/ps3.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-9.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.trustedreviews.com/news/marvels-spider-man-system-requirements-4251649">trustedreviews</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
             <div class="game_reviews">
@@ -82,3 +87,12 @@ tags:
         <p><strong>GSXSW Gaming Award for Excellence in Convergence<br>2019</strong></p>
       </div>
     </div>
+      <section class="Collections">
+  <h1>All PS Games</h1>
+  <ul>
+    {% for game in collections.ps %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section> 
+     

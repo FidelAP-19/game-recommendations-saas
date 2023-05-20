@@ -10,7 +10,7 @@ pageClass: home
     <nav class="site-main">
 
         <div class="intro">
-           <h1>SWITCH</h1>
+           <h1>NINTENDO SWITCH</h1>
 
         </div>
 

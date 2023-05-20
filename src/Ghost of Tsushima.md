@@ -23,7 +23,12 @@ tags:
             </div>
           </article>
           <article class="card-m">
-            <div class="card__img-m"><img src="/images/ps1.png" alt=""></div>
+          <figure class="img-container">
+            <div class="card__img-m"><img src="/images/game-main-8.png" alt=""></div>
+            <figcaption class="img-caption">
+               Photo from <a href="https://www.flickr.com/photos/omegapepper/50133249097">flickr</a>
+             </figcaption>
+             </figure>
           </article>
      </section>
         <div class="game_reviews">
@@ -79,3 +84,12 @@ tags:
         <p><strong>Golden Joystick Award for Best Game Expansion<br>2021</strong></p>
       </div>
     </div>
+      <section class="Collections">
+  <h1>All PS Games</h1>
+  <ul>
+    {% for game in collections.ps %}      
+      <li><a href="{{game.url}}">{{game.data.title}}</a></li>
+    {% endfor %}
+  </ul>
+  </section> 
+    
