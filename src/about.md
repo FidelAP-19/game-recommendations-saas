@@ -16,7 +16,7 @@ tags:
          </div>
           <article class="card-2">
             <div class="card__content">
-              <p class="card__text">Our website is called Game Recommendation, which is a platform for all gamers who love games. This site will recommend the top four most popular games for different consoles. We will show it to every game player in the form of image and text, and enrich the player's needs and exploration of the game</p>
+              <p class="card__text">Our website is called Game Navigator, which is a platform for all gamers who love games. This site will recommend the top three most popular games for different consoles. We will show it to every game player in the form of image and text, and enrich the player's needs and exploration of the game</p>
             </div>
           </article>
      </section>
